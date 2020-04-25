@@ -1,17 +1,17 @@
-header {
+#nav-header {
   background-color: black;
   align-items: center;
 }
-header nav {
+#nav-header nav {
   display: flex;
 }
-header nav a {
+#nav-header nav a {
     font-weight: bold;
   padding: 1em 2em;
   text-decoration: none;
   color: white;
 }
-header nav a:hover {
+#nav-header nav a:hover {
   background: white;
   color: black;
 }
