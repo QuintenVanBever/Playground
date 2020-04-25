@@ -1,2 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
+body,
+html,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: "Ubuntu", sans-serif;
+}

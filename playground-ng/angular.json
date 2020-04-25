@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "playground-ng"
+    }
+  },
+  "defaultProject": "playground-ng",
+  "cli": {
+    "analytics": "e8cfbe03-651d-40fc-b030-4b1d7d10df00"
+  }
 }
