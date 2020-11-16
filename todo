@@ -1,8 +1,43 @@
 TODO
-em vs rem
+JavaScript Concepts:
+    - Asynchronous Communication
+    - DOM creation & modification
+    - Loops (all the loops)
+    - Prototyping
+    - Classes
+    - Prototype vs Class
+    - IIFE Immediately Invoked Function Expression
+    - Global & Local scope
+    - Closures
+    - Module Pattern
+    - Hoisting
+    - Currying
+    - Memoization
+    - Apply, Call & Bind
+    - Polymorphism
+    - Callbacks 
+    - Promises
+    - Async & Await
+
+Markdown:
+    - Learn Markdown
+
+GO:
+    - Basics
+    - API calls
+    
+
+
 
 DOING
 
 
 DONE
-flexbox/css grid
+
+
+
+LINKS
+https://overapi.com/javascript
+https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook
+https://www.w3schools.com/css/css_intro.asp
+

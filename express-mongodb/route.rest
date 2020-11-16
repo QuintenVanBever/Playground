@@ -1,5 +1,5 @@
 ### GET ALL
-GET http://localhost:3000/subscribers
+GET http://localhost:3000/pokemon
 
 ### GET 1 BY ID
 GET http://localhost:3000/subscribers/5f7e1bd9804a2e486235786c

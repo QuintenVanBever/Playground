@@ -35,7 +35,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// PUT 1 subscriber
+// PATCH 1 subscriber
 // * Only update what gets passed
 router.patch("/:id", getSubscriber, async (req, res) => {
   if (req.body.name != null) {
