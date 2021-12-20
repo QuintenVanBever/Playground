@@ -1,5 +1,6 @@
 import marked from "marked/bin/marked";
 
+// This needs CORS to work
 function fillBlog() {
   FileReader.readFile("blog_files/first.md", "utf8", (err, data) => {
     console.log(data);
