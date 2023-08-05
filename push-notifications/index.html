@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="enablePushNotification()">
+      Enable Push Notifications
+    </button>
+
+    <button onclick="disablePushNotification()">
+      Disable Push Notifications
+    </button>
+
+    <button onclick="sendPushNotification()">Send Notification</button>
+  </body>
+
+  <script>
+    function enablePushNotification() {
+      Notification.requestPermission();
+    }
+
+    function sendPushNotification() {
+      if (Notification.permission === 'granted') {
+        const notif = new Notification('The easiest push notification');
+      } else if (Notification.permission !== 'denied') {
+        Notification.requestPermission().then((perm) => {
+          if (Notification.permission === 'granted') {
+            const notif = new Notification('The easiest push notification');
+          }
+        });
+      }
+    }
+  </script>
+</html>
+
+<!-- 
+https://developer.mozilla.org/en-US/docs/Web/API/Notification
+    
+Extra reading: https://web.dev/push-notifications-overview/
+
+ -->
